@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html PUBLIC>
+<!DOCTYPE html PUBLIC>
 <html lang="pt-br">
 <head>
 	<meta charset="utf-8">
@@ -7,6 +7,10 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.2/assets/owl.theme.default.min.css">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 	<link rel="stylesheet" href="style.css">
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+
 </head>
 <body>
 
@@ -15,27 +19,33 @@
 		
 <aside class="container-fluid px-0" id="topo">
 	<div class="container">
-		<nav class="navbar navbar-light">
+		<div class="navbar navbar-light">
 			<a class="navbar-brand" href="#">
 				<img src="images/logoaniversario.png" alt="Logo de aniversário Kalunga">
 			</a>
 			<div >
 				<img src="images/relampagobg.png" alt="72 horas de ofertas" class="img-fluid">
 			</div>
-		</nav>
+		</div>
 	</div>
 </aside>
 
 
 <section class="containe-fluid">
-	<div class="owl-carousel">
-		<div class="item banner-1"></div>
-		<div class="item banner-2"></div>
-		<div class="item banner-3"></div>
-		<div class="item banner-4"></div>
-		<div class="item banner-5"></div>
-		<div class="item banner-6"></div>
+	<div class="owl-carousel owl-theme owl-loaded">
+			<div class="item banner-1"></div>
+			<div class="item banner-2"></div>
+			<div class="item banner-3"></div>
+			<div class="item banner-4"></div>
+			<div class="item banner-5"></div>
+			<div class="item banner-6"></div>
 	</div>
+    <div class="owl-dots">
+        <div class="owl-dot active"><span></span></div>
+        <div class="owl-dot"><span></span></div>
+        <div class="owl-dot"><span></span></div>
+    </div>
+
 </section>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.2/owl.carousel.min.js"></script>
@@ -60,6 +70,11 @@
 
 <aside class="container rounded" id="laranja">
 		<h1 class="text-white text-center py-2">Procure por departamentos</h1>
+		<div class="navbar navbar-expand-md">
+		<button class="navbar-toggler mx-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		<div  class="d-lg-none d-md-block btn btn-lg bg-amarelo font-weight-bold " >Veja Mais <i id="icon" class="fa fa-arrow-down "></i></div>
+		 </button>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
 		<ul class="list-group categorias-bf py-2">
 			<div class="row">
 				<div class="col-lg-3 col-md-6 col-6 borda-1">
@@ -97,6 +112,8 @@
 			
 			</div>
 			</ul>
+			</div>
+		</div>
 </aside>
 
 <section class="container">
@@ -105,7 +122,6 @@
 
 
 </div>
-
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
