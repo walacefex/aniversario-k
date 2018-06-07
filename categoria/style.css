@@ -1,0 +1,89 @@
+#hotsite{
+ background-color: #ffe719;
+}
+
+
+#hotsite .list-group-item{border:none; background-color: transparent;}
+#hotsite li.list-group-item a {    
+    color: #fff;
+    text-decoration: none;
+    font-family: tahoma;
+    font-size: 12px;
+    transition: 0.3s;
+    padding: 7px 5px 0;
+    border-radius: 0px;
+    margin: 0 0 0 8px;
+    position: relative;
+    }
+
+ #hotsite .list-group-item li:hover{}
+#hotsite .categorias-bf .laranja {
+    background: #ff9d2a;
+    transition: 0.5s;
+    transition-delay: 0.2s;
+    display: block;
+    position: relative;
+    z-index: 1;
+    margin: -100px 0 0 -300px;
+}
+#hotsite.categorias-bf ul li:hover .laranja{    margin-left: -25px;
+}
+
+#hotsite .categorias-bf .amarelo {S
+    background: #ffba00;
+    transition: 0.3s;
+    transition-delay: 0.1s;
+    display: block;
+    position: relative;
+    z-index: 1;
+    margin: -100px 0 0 -300px;
+    }
+#hotsite .carousel-indicators li {background-color: #ddd;border-radius: 20px;}
+#hotsite #laranja{
+    background-color: #FF6000;
+    width: 100%;
+    height: auto;
+}
+#hotsite .bg-amarelo{
+    background-color: #ffe719;
+}
+#hotsite .categorias-bf li .dptos { width: 25px; height: 20px; float: left; margin: -2px 5px; background: url(https://www.kalunga.com.br/HotSite/images/aniversario/2018/imagens/submenu-icones.png)-15px -22px; transition: 0.2s;}
+#hotsite .bf-apresentacao {background-position: -14px -20px !important;}
+#hotsite .bf-arte {background-position: -14px -57px !important;}
+#hotsite .bf-canetas-luxo {background-position: -14px -90px !important;}
+#hotsite .bf-coffee-break {background-position: -15px -125px !important;}
+#hotsite .bf-eletronicos {background-position: -15px -161px !important;}
+#hotsite .bf-embalagens {background-position: -15px -198px !important;}
+#hotsite .bf-envelopes {background-position: -15px -236px !important;}
+#hotsite .bf-escolar {background-position: -13px -271px !important;}
+#hotsite .bf-escrita {background-position: -13px -308px !important;}
+#hotsite .bf-escritorio {background-position: -58px -21px !important;}
+#hotsite .bf-impressoras {background-position: -56px -55px !important;}
+#hotsite .bf-informatica {background-position: -58px -88px !important;}
+#hotsite .bf-limpeza {background-position: -57px -125px !important;}
+#hotsite .bf-midias {background-position: -56px -161px !important;}
+#hotsite .bf-monitores {background-position: -55px -198px !important;}
+#hotsite .bf-moveis {background-position: -57px -232px !important;}
+#hotsite .bf-notebooks {background-position: -54px -270px !important;}
+#hotsite .bf-papeis {background-position:  -13px -346px !important;}
+#hotsite .bf-softwares {background-position: -98px -54px !important;}
+#hotsite .bf-rede {background-position: -99px -20px !important;}
+#hotsite .bf-telefonia {background-position: -98px -87px !important;}
+#hotsite .bf-cartuchos {background-position: -99px -123px !important;}
+#hotsite .bf-eletrica {background-position: -102px -160px !important;}
+#hotsite .bf-gamers {background-position: -98px -232px !important;}
+#hotsite .bf-organizacao {background-position: -54px -347px !important;}
+#hotsite .bf-relampago {background-position: -101px -347px !important;}
+#hotsite .borda{
+    border-left: #ddd solid 1px;
+}
+
+#hotsite #categorias-page{
+    background-image: url('images/aniversario-categoria.png');
+    height: 240px;
+    margin: 0px auto 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
